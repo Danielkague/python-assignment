@@ -1,0 +1,16 @@
+my_list = []
+print("Before Append:", my_list)
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+print("After Append:", my_list)
+my_list[1] = 15
+print("After Update:", my_list)
+my_list.extend([50, 60, 70])
+print("After Extend:", my_list)
+my_list.remove(70)
+print("After Remove:", my_list)
+my_list.sort()
+print("After Sort:", my_list)
+print(my_list.index(30))
